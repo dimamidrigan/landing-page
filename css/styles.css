@@ -1,0 +1,92 @@
+body {
+
+    background-color: hsl(257, 40%, 49%);
+    margin: 0;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+h1 {
+
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    font-size: 3rem;
+
+}
+
+p {
+
+    color: white;
+    text-align: left;
+    font-size: 1.2rem;
+
+}
+
+.background {
+
+    position: relative;
+
+
+}
+
+.logo {
+
+    position: absolute;
+    top: 50px;
+    left: 50px;
+
+}
+
+.illustration {
+
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}
+
+.text {
+
+    position: absolute;
+    top: 250px;
+    right: 300px;
+}
+
+.button {
+    position: absolute;
+}
+
+.btn {
+    background: #ffffff;
+    background-image: -webkit-linear-gradient(top, #ffffff, #ffffff);
+    background-image: -moz-linear-gradient(top, #ffffff, #ffffff);
+    background-image: -ms-linear-gradient(top, #ffffff, #ffffff);
+    background-image: -o-linear-gradient(top, #ffffff, #ffffff);
+    background-image: linear-gradient(to bottom, #ffffff, #ffffff);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    -webkit-box-shadow: 5px 5px 16px black;
+    -moz-box-shadow: 5px 5px 16px black;
+    box-shadow: 5px 5px 16px black;
+    font-family: 'Poppins', sans-serif;
+    color: #674BAF;
+    font-size: 15px;
+    padding: 12px 35px 12px 35px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #E882E8;
+    background-image: -webkit-linear-gradient(top, #E882E8, #E882E8);
+    background-image: -moz-linear-gradient(top, #E882E8, #E882E8);
+    background-image: -ms-linear-gradient(top, #E882E8, #E882E8);
+    background-image: -o-linear-gradient(top, #E882E8, #E882E8);
+    background-image: linear-gradient(to bottom, #E882E8, #E882E8);
+    color: white;
+    text-decoration: none;
+  }
+
+  .attribution { font-size: 11px; text-align: center; }
+  .attribution a { color: hsl(228, 45%, 44%); }
